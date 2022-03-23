@@ -61,7 +61,7 @@ We can create an instance of the sprite class with code like this:
 
 .. code-block::
 
-    self.player_sprite = arcade.Sprite("images/player_1/player_stand.png", CHARACTER_SCALING)
+    self.player_sprite = arcade.Sprite(":resources:images/player_1/player_stand.png", CHARACTER_SCALING)
 
 The first parameter is a string or path to the image you want it to load.
 An optional second parameter will scale the sprite up or down.
@@ -73,7 +73,10 @@ down 50% for a 64x64 sprite.
 
     The arcade library has a few built-in :ref:`resources` so we can run
     examples without downloading images. If you see code samples where sprites
-    are loaded beginning with "resources", that's what's being referenced.
+    are loaded beginning with ":resources:", that's what's being referenced.
+    
+    To use your own images, just give a path to your own image file, without a
+    ":" prefix.
 
 Next, we need to tell *where* the sprite goes. You can use the attributes
 ``center_x`` and ``center_y`` to position the sprite. You can also use ``top``,
