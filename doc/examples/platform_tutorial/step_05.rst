@@ -41,7 +41,7 @@ statements we had before, and make 'UP' jump when pressed.
     :caption: 05_add_gravity.py - Add Gravity
     :lines: 89-106
     :linenos:
-    :emphasize-lines: 4-6
+    :emphasize-lines: 4-6,15
 
 .. note::
 
@@ -55,4 +55,4 @@ Source Code
 .. literalinclude:: ../../../arcade/examples/platform_tutorial/05_add_gravity.py
     :caption: 05_add_gravity.py - Add Gravity
     :linenos:
-    :emphasize-lines: 17-18, 75-78, 92-94
+    :emphasize-lines: 17-18, 75-78, 92-94,103
